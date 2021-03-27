@@ -2,4 +2,6 @@
 2. php를 이용하여 간단한 홈페이지 만들어 보기
 
 
-12..php 깃허브 업로드 과정에서 read.me 를 추가하자 에러가 발생하였고 git pull origin master 라는 명령어를 통해 해결하였다
+12..php 깃허브 업로드 과정에서 read.me 를 추가하자 에러가 발생하였고 git pull origin master 라는 명령어를 통해 해결하였다(3/25)
+
+php 파일이 실행되지가 않아 extensions 부분에서 php관련 파일을 다운받아 실행하니 제대로 작동하였다.(3/27)
