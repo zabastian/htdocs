@@ -5,8 +5,13 @@
     </head>
 
     <body>
-        <input type="button" value="white" onclick="alert('hello world')"/>
-        <input type="text" onfocus="alert('focus')" onblur="alert('blur')"/>
+        <input type="text" id="user_input" />
+        <input type="button" value="white" onclick="alert(document.getElementById('user_input').value)"/>
     </body>
 
 </html>
+
+<!-- input 태그는 입력할 수 있는 장치이다. 
+onclick 은 나중에 사용자가 클릭했을때 자바스크립트 코더기억했다가 실행 즉,alert("내용")을 기억합니다. -->
+
+getElementById 은 함수이고 이 함수에 user_input을 주게되면
