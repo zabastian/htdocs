@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <style>
+            li{
+                color:blue;
+            }
+            ul li{
+                font-size:40px;
+            }
+            .x{
+                text-decoration:underline;
+            }
+        </style>
+        <ol id="target">
+            <li class="x">html</li>
+            <li>css</li>
+            <li>javascript</li>
+        </ol>
+        <ul>
+            <li>최진혁</li>
+            <li class="x">최유빈</li>
+            <li>한이람</li>
+            <li>한이온</li>
+        </ul>
+        <input type="button" value="강조" onclick="document.getElementById('target').className='x'"  >
+    </body>
+</html>
+
+<!-- class는 id 와 다르게 그루핑을 통해서 다른 태그에 속해있는것에 속성을 부여할 수 있다. -->
+<!-- ClassName='x'는 자바스크립트 .x{text.decoration:unederline;}을 실행 하게 해준다. -->
+<!-- class 는 .을 사용한다 (id는 #을 썼었다. !!) -->
