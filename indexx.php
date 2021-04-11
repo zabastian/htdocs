@@ -1,3 +1,17 @@
+<?php
+$conn = mysqli_connect("localhost", "root", 111111);
+mysqli_select_db($conn, "opentutorials");
+$result = mysqli_query($conn, "SELECT * FROM topic");
+$row = mysqli_fetch_assoc($result);
+echo $row['id'];
+
+?>
+<!--$conn = mysqli_connect("localhost", "root", 121049); 은 mysql -hlocalhost -uroot -p 명령어와 같다. -->
+<!--mysqli_select_db($conn, "opentutorials"); 은 mysql>use opentutirials 명령어와 같다. -->
+<!-- $result = mysqli_query($conn, "SELECT * FROM topic");은 mysql> SELECT * FROM topic; 과 같다. -->
+<!-- row에 연관배열을 가져온다. -->
+
+
 <!DOCTYPE html>
 <html>
 
