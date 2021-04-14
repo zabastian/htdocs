@@ -2,8 +2,8 @@
 $conn = mysqli_connect("localhost", "root", 111111);
 mysqli_select_db($conn, "opentutorials");
 $result = mysqli_query($conn, "SELECT * FROM topic");
-$row = mysqli_fetch_assoc($result);
-echo $row['id'];
+
+
 
 ?>
 <!--$conn = mysqli_connect("localhost", "root", 121049); 은 mysql -hlocalhost -uroot -p 명령어와 같다. -->
@@ -29,7 +29,9 @@ echo $row['id'];
     <nav>
         <ol>
             <?php
-            echo file_get_contents("list.txt");
+            while ($row = mysqli_fetch_assoc($result)) {
+                echo '<li><a href = "http://localhost/inde.php?id=' . $row['id'] . ' ">' . $row['title'] . '</a></li>' . "\n";
+            }
             ?>
         </ol>
     </nav>
@@ -39,7 +41,7 @@ echo $row['id'];
 
     </div>
     <article>
-        if()
+
         <?php
         echo file_get_contents($_GET['id'] . ".txt");
         ?>
