@@ -12,4 +12,6 @@ php 파일이 실행되지가 않아 extensions 부분에서 php관련 파일을
 4/6 내pc에서 경로와 visual studio 경로도 다시 바꾸었으나 실행되자 않는다... 파일을 다시 만들고 저장할것이다.
 ※문제해결!! php.ini 파일에서 error_reporting = E_ALL & ~E_DEPRECATED & ~E_STRICT 부분에서 & ~E_NOTICE를 추가해서 더이상 경고문이 뜨지 않게 설정했더니 실행이 되었다.
 
+4/17 지금까지 만든것을 padding과 float 등을 이용하여 정리해 주었다.
+
 
