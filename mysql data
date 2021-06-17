@@ -1,0 +1,23 @@
+데이터 베이스의 장점
+:안전하다 -> 다른곳에 백업하는 시스템을 가지고 있다.
+:빠르다 -> 인덱스를 통해 정보를 빠르게 찾도록 정리되어있다.
+:프로그래밍적 제어가능하다.
+
+{{database(mysql)}}
+
+mysql의 특징
+structured 시킨다.(구조화시킴)
+=
+table
+
+sql(structured query language)
+
+데이터 베이스의
+
+mysql client(mysql monitor-표준적인 mysql client중 하나이다.)  ------ mysql server
+SELECT*FEOM topic; ---->
+표로 만들어진다. <----------
+
+웹 브라우저 -->웹서버---->php--->mysql(client<-->server 관계이다.)
+
+

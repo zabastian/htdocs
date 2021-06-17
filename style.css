@@ -1,18 +1,21 @@
+header {
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  /* <!-- padding은 글자와 테두리 사이의 간격을 말한다.--> */
+}
+nav {
+  border-right: 3px solid gray;
+  width: 200px;
+  height: 600px;
+  float: left;
+  /* <!-- 왼쪽에 nav 태그들을 위치시킨다. --> */
+}
 
-header{
-  border-bottom:1px solid gray;
-  padding:20px;     <!-- padding은 글자와 테두리 사이의 간격을 말한다.-->
-}
-nav{
-  border-right:3px solid gray;
-  width:200px;
-  height:600px;
-  float:left;                    <!-- 왼쪽에 nav 태그들을 위치시킨다. -->
-}
-nav ol{
+nav ol {
+  padding: 0;
   list-style: none;
 }
-article{
-  float:left;
-  padding:20px;
+article {
+  float: left;
+  padding: 20px;
 }
